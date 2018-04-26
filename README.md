@@ -1,2 +1,2 @@
 # SASS_Skills
-A project to enhance my skills with the SASS css preprocessor
+A project to reinforce my skills with the SASS css preprocessor
