@@ -56,4 +56,22 @@ h1 {
   float: left;
   margin: 15px; }
 
+.alert, .success, .warning, .failure {
+  border: 1px solid #333333;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 15px;
+  text-transform: uppercase; }
+
+.success {
+  background: #4caf50; }
+
+.warning {
+  background: #ffcc33; }
+
+.failure {
+  background: red; }
+
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,19 @@
+.alert
+    +border(1px solid $brand-secondary)
+    +border-rad(10px)
+    margin: 10px 0
+    padding: 15px
+    text-transform: uppercase
+
+//inheritance
+.success
+    @extend .alert
+    background: #4caf50
+
+.warning 
+    @extend .alert
+    background: #ffcc33
+
+.failure
+    @extend .alert
+    background: red
